@@ -1,0 +1,13 @@
+window
+   name view1 ;
+   windowwidth 8
+   windowheight 6
+   columns 400
+   viewpoint 0 -1 5
+   ambient 6 6 6 ;
+
+plane  name backwall ;
+   color 0 0 240 ;
+   point 1 0 -4
+   orient1 1 1 0
+   orient2 0 1 0 ;

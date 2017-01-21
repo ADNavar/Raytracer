@@ -1,0 +1,56 @@
+
+Pixel Height :    400
+
+DUMP OF WINDOW
+
+Entity name:   theview
+   type =      window
+   Pixel Width:       500
+   World Width:       10
+   World Height:      8
+   viewPoint:         0.00   0.00   4.00
+   ambient intensity: 6.00   6.00   6.00
+
+DUMP OF SCENE OBJECTS:
+
+Entity name:   wall
+   type =      plane
+   color:      255   255 255
+   diffuse:    1.00   1.00   1.00
+   reflective: 0.00   0.00   0.00
+   point:      0.00   -5.00   -11.00
+   orient1:    2.00   0.00   1.00
+   orient2:    0.00   1.00   0.00
+   normal:     -1.00   0.00   2.00
+
+Entity name:   floor
+   type =      plane
+   color:      20   0 240
+   diffuse:    1.00   1.00   1.00
+   reflective: 0.00   0.00   0.00
+   point:      0.00   -5.00   0.00
+   orient1:    0.00   0.00   1.00
+   orient2:    1.00   0.00   0.00
+   normal:     0.00   1.00   0.00
+
+Entity name:   ball
+   type =      sphere
+   color:      200   0 0
+   diffuse:    0.50   0.50   0.50
+   reflective: 0.00   0.00   0.00
+   center:     -3.50   0.00   -1.50
+   radius:     0.60
+
+DUMP OF LIGHT LIST:
+
+Entity name:   light1
+   type =      pointlight
+   color:      240   250 255
+   brightness: 7
+   center:     -4.00   0.00   -0.25
+
+Entity name:   light2
+   type =      pointlight
+   color:      255   255 255
+   brightness: 6
+   center:     -3.50   2.00   -1.50

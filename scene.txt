@@ -1,0 +1,51 @@
+window
+   name view1 ;
+   windowwidth 8
+   windowheight 6
+   columns 400
+   viewpoint 0 -1 5
+   ambient 6 6 6 ;
+
+plane  name plane1;
+   color 250 0 0
+   point 0 -3 0
+   orient1 1 1 0
+   orient2 0 0 1 ;
+
+plane  name plane2; 
+   point 0 -3 0
+   orient1 -1 1 0 
+   orient2 0 0 1
+   color 0 0 230 ;
+
+sphere  name ball1; 
+   color  0 255 255
+   center -1 2 -3.5
+   radius 1.25 ;
+
+sphere  name ball2;
+   color 0 255 0
+   center 1 2 -3.5
+   diffuse 0.5 0.5 0.5
+   radius 1.25 ;
+
+sphere  name ball3;
+   center 0 0 -3.5
+   radius 1.25
+   color 255 255 0 ;
+
+sphere name randomsphere1;
+   center 8 5 -11
+   radius 0.75
+   color 68 248 16 ;
+
+sphere name randomsphere2;
+   center -8 5 -9
+   radius 0.75
+   color 68 248 16 ;
+
+sphere name randomsphere3;
+   center 2 -1 -2
+   radius 0.75
+   color 68 248 16 ;
+

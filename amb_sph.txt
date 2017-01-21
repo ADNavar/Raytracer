@@ -1,0 +1,12 @@
+window
+   name view1 ;
+   windowwidth 8
+   windowheight 6
+   columns 400
+   viewpoint 0 -1 5
+   ambient 6 6 6 ;
+
+sphere  name ball ;
+   color 0 130 190 ;
+   center 0 0 -3.5
+   radius 3.5 ;

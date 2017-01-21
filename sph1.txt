@@ -1,0 +1,26 @@
+ window
+   name view1 ;
+   windowwidth 8
+   windowheight 6
+   columns 400
+   viewpoint 0 -1 5
+   ambient 6 6 6 ;
+
+plane  
+   name backwall ;
+   diffuse 3 3 3
+   color 255 255 255 ;
+   point 1 0 -4
+   orient1 1 1 0
+   orient2 0 1 0 ;
+
+sphere  name ball ;
+   color 200 0 0
+   diffuse 0.7 0.7 0.7 ;
+   radius 1.5
+   center -0.3 0.75 -2.5 ;
+
+pointlight name pinkfront ;
+   color 250 100 100
+   brightness 7
+   center -1 2 3 ;

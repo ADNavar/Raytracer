@@ -1,0 +1,42 @@
+ window
+   name view1 ;
+   windowwidth 8
+   windowheight 6
+   columns 1000
+   viewpoint 0 -1 5
+   ambient 6 6 6 ;
+
+sphere  name left ;
+   color 200 0 0
+   diffuse 0.7 0.7 0.7
+	reflective 0.1 0.1 0.1;
+   radius 1.5
+   center -1.5 0.75 -2.5 ;
+
+sphere  name right ;
+   color 0 0 255
+   diffuse 0.7 0.7 0.7
+	reflective .3 .4 .0 ;
+   radius 1.5
+   center 2.0 0.75 -2.5 ;
+
+plane  
+   name floor ;
+   diffuse 3 3 3
+   color 230 230 230 ;
+   point 1 -4 -7
+   orient1 0 0 1
+   orient2 1 0 0 ;
+
+pointlight name light ;
+   color 230 140 125
+   brightness 7
+   center -5.3 2.5 1.0 ;
+
+pointlight name light ;
+   color 230 140 125
+   brightness 4
+   center 4.3 2.5 1.0 ;
+
+
+
